@@ -1,6 +1,6 @@
 %define name wondershaper
 %define version 1.1a
-%define release 4mdk
+%define release %mkrel 4
 
 Summary: Helps maintain interactive latency on modem/ADSL/cable
 Name: %name
