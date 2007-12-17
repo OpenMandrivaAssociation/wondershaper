@@ -13,7 +13,6 @@ Source0: %name-%version.tar.bz2
 Source1: wshaper.init.d
 Source2: wshaper.cfg
 Patch0: wondershaper-etc.patch.bz2
-BuildRoot: %_tmppath/%name-%version
 BuildArch: noarch
 PreReq: rpm-helper
 
