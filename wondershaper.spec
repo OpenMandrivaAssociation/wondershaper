@@ -14,7 +14,7 @@ Source1: wshaper.init.d
 Source2: wshaper.cfg
 Patch0: wondershaper-etc.patch.bz2
 BuildArch: noarch
-PreReq: rpm-helper
+Requires(post,preun):	rpm-helper
 
 %description
 Maintain low latency for interfactive traffic at all times
