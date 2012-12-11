@@ -66,3 +66,41 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) %_sysconfdir/rc.d/init.d/%{name}
 %attr(0644,root,root) %config(noreplace) %_sysconfdir/wshaper.cfg
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.1a-8mdv2010.0
++ Revision: 434976
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.1a-7mdv2009.0
++ Revision: 262125
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.1a-6mdv2009.0
++ Revision: 256343
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Dec 18 2007 Thierry Vignaud <tvignaud@mandriva.com> 1.1a-4mdv2008.1
++ Revision: 131806
+- fix prereq on rpm-helper
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import wondershaper
+
+
+* Fri Feb 11 2005 Gaetan Lehmann <gaetan.lehmann@jouy.inra.fr> 1.1a-4mdk
+- move config to /etc/wshaper.cfg
+- add init script
+
+* Mon Feb 16 2004 Michael Scherer <misc@mandrake.org> 1.1a-3mdk
+- change to noarch
+ 
+* Thu Jan 30 2003 Lenny Cartier <lenny@mandrakesoft.com> 1.1a-2mdk
+- rebuild
+
+* Tue May 21 2002 Lenny Cartier <lenny@mandrakesoft.com> 1.1a-1mdk
+- 1.1a
