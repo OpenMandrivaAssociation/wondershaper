@@ -2,7 +2,7 @@ Name:		wondershaper
 Version:	1.2.1
 Release:	1
 Summary:	Simple Network Shaper
-Group:		Applications/Internet
+Group:		System/Servers
 License:	GPLv2+
 URL:		http://sourceforge.net/projects/wondershaper/
 Source:		http://downloads.sourceforge.net/project/wondershaper/%{name}-%{version}.tar.gz
