@@ -1,6 +1,6 @@
 Name:		wondershaper
 Version:	1.2.1
-Release:	1
+Release:	2
 Summary:	Simple Network Shaper
 Group:		System/Servers
 License:	GPLv2+
