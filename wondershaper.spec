@@ -4,7 +4,7 @@ Release:	2
 Summary:	Simple Network Shaper
 Group:		System/Servers
 License:	GPLv2+
-URL:		http://sourceforge.net/projects/wondershaper/
+URL:		https://sourceforge.net/projects/wondershaper/
 Source:		http://downloads.sourceforge.net/project/wondershaper/%{name}-%{version}.tar.gz
 Requires:	iproute2
 BuildArch:	noarch
